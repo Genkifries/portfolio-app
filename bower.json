@@ -1,0 +1,15 @@
+{
+  "name": "portfolio-app",
+  "description": "A small project using AngularJS, Bower and Grunt",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Genkifries/portfolio-app.git",
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "angular-loader": "~1.4.0",
+    "angular-mocks": "~1.4.0",
+    "jquery": "~2.1.1",
+    "font-awesome": "~4.4.0",
+    "bootstrap-sass": "~3.3.6"
+  }
+}

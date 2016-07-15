@@ -1,0 +1,26 @@
+[
+  {
+    "id": "work-one",
+    "workTitle": "Title One",
+    "workType": "Type One",
+    "imageUrl": "images/thumb_ridgegate.jpg"
+  },
+  {
+    "id": "work-two",
+    "workTitle": "Title Two",
+    "workType": "Type Two",
+    "imageUrl": "images/thumb_ridgegate.jpg"
+  },
+  {
+    "id": "work-three",
+    "workTitle": "Title Three",
+    "workType": "Type Three",
+    "imageUrl": "images/thumb_ridgegate.jpg"
+  },
+  {
+    "id": "work-four",
+    "workTitle": "Title Four",
+    "workType": "Type Four",
+    "imageUrl": "images/thumb_ridgegate.jpg"
+  }
+]

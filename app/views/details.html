@@ -1,0 +1,17 @@
+<div class="page-wrap">
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container" style="position:relative;">
+	  	<div class="nav-group absolute-center-vertical">
+	  		<a href="{{prevWork}}" class="pull-left"><i class="fa fa-chevron-left fa-2x"></i></a>
+	  		<a href="{{nextWork}}" class="pull-right"><i class="fa fa-chevron-right fa-2x"></i></a>
+	  		<div class="clearfix"></div>
+	  	</div>
+	  	<div class="nav-group nav-group-right absolute-center-vertical">
+	  		<a href="/" class="pull-right"><h1 class="no-margin" style="font-size:3.5rem; font-weight:500; line-height:0;">&times;</h1></a>
+	  	</div>
+	  	<h3 class="text-center text-dots">{{workId}}</h3>
+		</div>
+	</nav>
+
+	<ng-include src="'/views/partials/' + workId + '.html'"></ng-include>
+</div>
