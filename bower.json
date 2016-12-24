@@ -4,12 +4,12 @@
   "version": "0.0.1",
   "homepage": "https://github.com/Genkifries/portfolio-app.git",
   "dependencies": {
-    "angular": "^1.5.7",
-    "angular-route": "^1.5.7",
-    "angular-loader": "^1.5.7",
-    "angular-mocks": "^1.5.7",
-    "jquery": "^3.1.0",
-    "font-awesome": "^4.6.3",
-    "bootstrap-sass": "^3.3.6"
+    "angular": "^1.6.1",
+    "angular-route": "^1.6.1",
+    "angular-loader": "^1.6.1",
+    "angular-mocks": "^1.6.1",
+    "jquery": "^3.1.1",
+    "font-awesome": "^4.7.0",
+    "bootstrap-sass": "^3.3.7"
   }
 }
