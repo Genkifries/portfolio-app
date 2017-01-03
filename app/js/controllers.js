@@ -5,9 +5,8 @@ var portfolioControllers = angular.module('portfolioControllers', []);
 portfolioControllers.controller('homeCtrl', ['$scope', '$http',
   function ($scope, $http) {
     //the json url is relative to index.html file
-    $http.get('works.json').then(function(data) {
-      $scope.thumbs = data;
-      console.log(data);
+    $http.get('works.json').then(function(response) {
+      $scope.thumbs = response.data;
     });
 }]);
 
@@ -17,9 +16,9 @@ portfolioControllers.controller('detailsCtrl', ['$scope', '$routeParams', '$http
     $scope.workId = $routeParams.workId;
 
     // to cycle thru current route
-    $http.get('works.json').then(function(data) {
+    $http.get('works.json').then(function(response) {
       
-      $scope.allWorks = data;
+      $scope.allWorks = response.data;
       
       var currentWorkIndex;
       var totalWorks = $scope.allWorks.length;
