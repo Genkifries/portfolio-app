@@ -112,7 +112,7 @@ h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.875rem;/*46px*/
+  font-size: 3.25rem;/*52px*/
 }
 
 h2 {
@@ -211,6 +211,10 @@ hr {
   padding-top: 7em;
   padding-bottom: 3.5em;
 
+  h3 {
+    line-height: 1.5;
+  }
+
   @media screen and (max-width:991px){
     padding-top: 3em;
     padding-bottom: 3em;
@@ -263,6 +267,15 @@ hr {
 
 .page-wrap {
   padding-top: 6em;
+
+  a {
+    padding: 1em 1.5em;
+    color: $link-color;
+
+    &:hover, &:focus, &:active {
+      color: $link-color-hover;
+    }
+  }
 }
 
 .navbar-default {
@@ -270,23 +283,13 @@ hr {
   background: rgba(255,255,255,0.97);
 }
 
-.nav-group {
-  left: 0;
-
-  a {
-    padding: 0.5em 1em;
-    color: $link-color;
-
-    &:hover, &:focus, &:active {
-      color: $link-color-hover;
-    }
-  }
-    
+.page-title {
+  padding-left: 2.2em;
+  padding-right: 2.2em;
 }
-.nav-group-right {
-  @extend .nav-group;
-  left: auto;
-  right: 0;
+
+.page-body {
+
 }
 
 /**************************** footer ****************************/

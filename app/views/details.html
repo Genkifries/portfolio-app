@@ -1,17 +1,23 @@
+<!--
+<div class="absolute-center-vertical">
+	<a href="{{prevWork}}"><i class="fa fa-chevron-left fa-2x"></i></a>
+	<a href="{{nextWork}}"><i class="fa fa-chevron-right fa-2x"></i></a>
+</div>
+-->
 <div class="page-wrap">
 	<nav class="navbar navbar-default navbar-fixed-top">
-	  <div class="container" style="position:relative;">
-	  	<div class="nav-group absolute-center-vertical">
-	  		<a href="{{prevWork}}" class="pull-left"><i class="fa fa-chevron-left fa-2x"></i></a>
-	  		<a href="{{nextWork}}" class="pull-right"><i class="fa fa-chevron-right fa-2x"></i></a>
-	  		<div class="clearfix"></div>
-	  	</div>
-	  	<div class="nav-group nav-group-right absolute-center-vertical">
-	  		<a href="/" class="pull-right"><h1 class="no-margin" style="font-size:3.5rem; font-weight:500; line-height:0;">&times;</h1></a>
-	  	</div>
-	  	<h3 class="text-center text-dots">{{workId}}</h3>
+	  	<div class="container" style="position:relative;">
+		  	<div class="absolute-center-vertical" style="right: 0;">
+		  		<a href="/" class="pull-right"><h1 class="no-margin">&times;</h1></a>
+		  	</div>
+		  	<h3 class="text-center text-dots page-title">{{workId}} This is the title just to test lala test again</h3>
 		</div>
 	</nav>
-
-	<ng-include src="'/views/partials/' + workId + '.html'"></ng-include>
+	<div class="page-body">
+		<div class="absolute-center-vertical">
+			<a href="{{prevWork}}"><i class="fa fa-chevron-left fa-2x"></i></a>
+			<a href="{{nextWork}}"><i class="fa fa-chevron-right fa-2x"></i></a>
+		</div>
+		<ng-include src="'/views/partials/' + workId + '.html'"></ng-include>
+	</div>
 </div>
