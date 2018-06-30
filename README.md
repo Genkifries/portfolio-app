@@ -1,6 +1,6 @@
 My portfolio
 
-Before cloning, install the following:
+Before cloning the repository, install the following:
 
 1. Grunt (globally)
 2. (Windows user) Ruby (Check the "Add Ruby ... Path")
