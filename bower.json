@@ -2,7 +2,7 @@
   "name": "portfolio-app",
   "description": "A small project using AngularJS, Bower and Grunt",
   "version": "0.0.1",
-  "homepage": "https://github.com/Genkifries/portfolio-app.git",
+  "homepage": "https://github.com/kkuodesign/portfolio-app.git",
   "dependencies": {
     "angular": "^1.6.1",
     "angular-route": "^1.6.1",

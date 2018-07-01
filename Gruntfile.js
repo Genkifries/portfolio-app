@@ -43,6 +43,7 @@ module.exports = function(grunt) {
       }
     },
 
+    /*
     compass: {
       dist: {
         options: {
@@ -50,10 +51,11 @@ module.exports = function(grunt) {
           /*
           sassDir: 'app/styles',
           cssDir: 'app/styles',
-          */
+          
         }
       }
     },
+    */
 
     postcss: {
       options: {
@@ -73,7 +75,7 @@ module.exports = function(grunt) {
       styles: {
         files: ['app/styles/main.scss'],
         tasks: [
-          'compass:dist',
+          //'compass:dist',
           'postcss:dist'
         ]
       },
