@@ -57,6 +57,14 @@ module.exports = function(grunt) {
     },
     */
 
+    sass: {
+      dist: {
+        files: {
+          'app/styles/main.css': 'app/styles/main.scss'
+        }
+      }
+    },
+
     postcss: {
       options: {
         map: true, // inline sourcemaps
@@ -76,6 +84,7 @@ module.exports = function(grunt) {
         files: ['app/styles/main.scss'],
         tasks: [
           //'compass:dist',
+          'sass:dist',
           'postcss:dist'
         ]
       },
