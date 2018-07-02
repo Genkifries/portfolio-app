@@ -7,6 +7,7 @@
     "autoprefixer": "^8.6.4",
     "bower": "^1.8.4",
     "connect-modrewrite": "^0.10.2",
+    "cssnano": "^3.10.0",
     "grunt": "^1.0.3",
     "grunt-connect-rewrite": "^0.2.1",
     "grunt-contrib-connect": "^1.0.2",
