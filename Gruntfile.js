@@ -59,6 +59,11 @@ module.exports = function(grunt) {
 
     sass: {
       dist: {
+        /*
+        options: {
+          sourcemap: 'inline'
+        },
+        */
         files: {
           'app/styles/main.css': 'app/styles/main.scss'
         }
